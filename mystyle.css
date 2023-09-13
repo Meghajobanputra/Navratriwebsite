@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.heading
+{
+    background-color: rgb(239, 209, 134);
+    display: flex;
+    justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 20px;
+   height: 120px;
+}
+.heading1
+{
+    display: flex;
+     margin-top: 30px;
+     justify-content: space-between;
+     font-size: 2.3rem;
+     width: 650px;
+     font-family: 'Lobster', cursive;
+    
+}
+a:link {
+    text-decoration: none;
+    color: black; 
+}
+
+a:visited {
+   color: black;
+}
+.events_details
+{
+    height: 580px;
+   background-image: url(../Navratriwebsite/image/navaratri2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#content
+{
+    font-size: 1.5rem;
+    /* align-items: left; */
+    padding: 150px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgb(0, 0, 0);
+}
+#about_us {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+}
+#about_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+#about_div>img {
+    width: 454px;
+    height: 359px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.heading2 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+}
+#events
+{
+    height: 640px;
+   padding-left: 20px;
+   padding-right: 20px;
+    background-color: rgb(154, 248, 248);
+}
+.events1
+{
+    font-size: 2rem;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#events_main
+{
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: 1fr 1fr;
+}
+#event_paragraph
+{
+    font-size: 1.8rem;
+    /* margin-right: 80px; */
+    /* margin-left: 100px; */
+}
+#offers
+{
+    height: 350px;
+    background-color: rgb(245, 71, 100);
+}
+.offers_main
+{
+    display: flex;
+    gap: 40px;
+    padding: 25px;
+}
+.offer_image
+{
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+}
+.offers_paragraph
+{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+contact-card h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.contact-card p {
+    font-size: 1.4rem;
+    margin: 10px;
+    /* gap: 20px; */
+    
+}
+
+#contact_main
+ {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; */
+    margin-top: 35px;
+    margin-left: 45px;
+    margin-right: 45px;
+    background-color: white;
+    padding: 20px;
+    gap: 20px;
+}
+#contact
+{
+    height: 500px;
+    background-color: rgb(248, 106, 130);
+    
+}
