@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="mystyle.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <section >
+    <section id="home">
        <nav class="heading">
         <img src="../Navratriwebsite/image/logo_main.png" width="350px" alt="">
         <div class="heading1">
-            <a href="" > Home </a>
-            <a href=""> About Us</a>
-            <a href=""> events</a>
-            <a href=""> Contact Us</a>
+            <a href="#home" > Home </a>
+            <a href="#about_us" > About Us</a>
+            <a href="#events"> events</a>
+            <a href="#contact_us"> Contact Us</a>
         </div>
        </nav>
     </section>
@@ -25,9 +26,9 @@
              About us
         </h1>
         <div id="about_div">
-             <img src="../Navratriwebsite/image/navaratri1.jpg" alt="">
-             <p data-aos="fade-up" data-aos-duration="3000" >
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate molestiae reiciendis harum aut? Nam accusantium, temporibus architecto dolorem vero ab. Quasi, quos cum adipisci explicabo doloribus neque ipsam velit culpa! Nihil, dolores molestiae minus accusamus hic deleniti debitis possimus inventore repudiandae alias distinctio tempora. Possimus suscipit cum, temporibus tempora quo facilis similique ipsam ex error. Temporibus quidem voluptatibus necessitatibus, odio rerum unde perspiciatis ipsa nemo cum reiciendis alias fugit veritatis quasi maiores facilis inventore distinctio eveniet tempore modi molestiae odit expedita aperiam, minus enim! Sunt expedita repellat molestiae repudiandae mollitia. Earum perspiciatis delectus repellendus, beatae quia tempora mollitia aliquam!
+             <img src="../Navratriwebsite/image/navaratri1.jpg" alt=""data-aos="fade-up" data-aos-duration="3000">
+             <p data-aos="fade-down" data-aos-duration="3000">   
+              Navratri is a vibrant Hindu festival celebrated over nine nights, dedicated to the goddess Durga. These festivities symbolize the triumph of good over evil. Navratri events typically include religious rituals, mesmerizing Garba and Dandiya dances, colorful attire, and elaborate decorations. Devotees fast, pray, and seek blessings during this period, while communities come together to revel in cultural performances, music, and delicious cuisine. The festival fosters unity, spirituality, and joy, offering a unique blend of tradition and merriment. Navratri events hold a special place in the hearts of millions, reflecting India's rich cultural tapestry and devotion to the divine. 
              </p>
         </div>
    </section>
@@ -36,8 +37,8 @@
         Our events
    </h1>
    <div id="events_main">
-    <div align="center">
-        <span class="events1" style="background-color: rgb(166, 166, 255);">Event 1 - Blue Day</span><br><br>
+    <div align="center"data-aos="flip-left"data-aos-duration="3000">
+        <a href="event1.html"><span class="events1" style="background-color: rgb(166, 166, 255);">Event 1 - Blue Day</span><br><br></a>
         <span class="events1" style="background-color: rgb(15, 237, 15);">Event 2 - Green Day</span><br><br>
         <span class="events1" style="background-color: rgb(255, 107, 107);">Event 3 - Red Day</span><br><br>
         <span class="events1" style="background-color: violet;">Event 4 - Violet Day</span><br><br>
@@ -48,8 +49,8 @@
         <span class="events1" style="background-color: orange;">Event 9 - Orange Day</span><br><br>
        </div>
        <div >
-        <p id="event_paragraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aperiam amet nihil illo quis id maiores? Adipisci, odio? Reprehenderit repudiandae necessitatibus vitae, accusamus assumenda cum, praesentium ducimus corporis quasi sit delectus perferendis impedit non maiores eos dolorum quos hic! Animi nobis alias enim doloribus deserunt at voluptate architecto, totam, laboriosam eligendi magni ab consequatur eaque sunt adipisci! Laboriosam, vero. Nesciunt nihil placeat maxime distinctio cupiditate ipsam quasi modi ipsum corrupti! Labore, iste totam? Tempora enim esse dolorum saepe, voluptatum facere molestiae illum quidem ducimus iure alias libero, tenetur perferendis. Eum, impedit! Laudantium explicabo quae earum tempore culpa et beatae unde?
+        <p id="event_paragraph" data-aos="flip-right"data-aos-duration="3000"> 
+        Our Navratri events are a cherished tradition, bringing our community together in celebration of the divine feminine energy. Over nine nights, we adorn our venue with vibrant colors, intricate decorations, and an aura of spirituality. Devotees participate in daily prayers and seek the blessings of Goddess Durga. The highlight of our festivities is the enchanting Garba and Dandiya dances, where people in resplendent attire whirl to traditional beats. Mouthwatering Navratri-special cuisine adds flavor to the experience. These events foster unity, cultural pride, and spiritual growth, embodying the essence of Navratri by blending tradition, dance, devotion, and delectable food in a joyous atmosphere.
         </p>
        </div>
    </div>
@@ -58,54 +59,68 @@
     <h1 align="center" class="heading2">
         Our offers
    </h1>
-   <div class="offers_main">
+   <div class="offers_main"data-aos="zoom-in" data-aos-duration="3000">
     <div class="offer_image">
         <img src="../Navratriwebsite/image/offer1.png" height="100px" alt="" >
         <p class="offers_paragraph"> 30% off On Buy 45 Days before</p>
     </div>
-    <div class="offer_image">
+    <div class="offer_image"data-aos="zoom-in" data-aos-duration="3000">
         <img src="../Navratriwebsite/image/offer2.png" alt="">
         <p class="offers_paragraph">20% off On Buy 30 Days before</p>
     </div>
-    <div class="offer_image">
+    <div class="offer_image"data-aos="zoom-in"data-aos-duration="3000">
         <img src="../Navratriwebsite/image/offer3.png" alt="">
         <p class="offers_paragraph">10% off On Buy 15 Days before</p>
     </div>
    </div>
    </section>
-
-   <section  id="contact">
+   <section id="contact_us">
     <h1 align="center" class="heading2">
-        Contact us
+      Contact us
    </h1>
-    <div id="contact_main">
-         <div class="contact-card" align="center" >
-              <img src="../Navratriwebsite/image/email.png" alt="">
-              <h3>Email</h3>
-              <p>Email: contact@example.com</p>
+    <div id="conact_main">
+         <div class="contact-card"data-aos="zoom-in" data-aos-duration="5000" >
+              <div align="center"><img src="../Navratriwebsite/image/email.png" alt=""></div>
+              <div align="center"><h3>Email</h3></div>
+              <p>Email: 9rasleela@gmail.com</p>
          </div>
 
-         <div class="contact-card">
-              <img src="../Navratriwebsite/image/placeholder.png" alt="">
-              <h3>Location</h3>
-              <p>Address: abc plot , xyz area , lmo city ,pqr , 000000</p>
+         <div class="contact-card"data-aos="zoom-in" data-aos-duration="4000">
+            <div align="center"><img src="../Navratriwebsite/image/placeholder.png" alt=""></div>
+            <div align="center"><h3>Location</h3></div>
+            <p>Address: Rangoli Park, bhavnagar, Gujarat, India</p>
          </div>
 
-         <div class="contact-card" >
-              <img src="../Navratriwebsite/image/book.png" alt="">
-              <h3>Contact Detail</h3>
-              <p>Phone: +1 (123) 456-7890</p>
+         <div class="contact-card"data-aos="zoom-in" data-aos-duration="3000" >
+              <div align="center"><img src="../Navratriwebsite/image/book.png" alt=""></div>
+              <div align="center"><h3>Contact Detail</h3></div>
+              <p>Phone: 0278-456745</p>
          </div>
-         <!-- <div class="contact-card" >
-            <img src="../Navratriwebsite/image/instagram (1).png" alt="">
+         <div class="contact-card"data-aos="zoom-in" data-aos-duration="2000" >
+            <div style="margin-top: 30px;">
+                <img src="../Navratriwebsite/image/instagram (1).png" alt="">
             <img src="../Navratriwebsite/image/facebook (2).png" alt="">
-            <img src="../Navratriwebsite/image/youtube.png" alt="">
             <img src="../Navratriwebsite/image/telegram (3).png" alt="">
-            <h3>Follow Us on</h3>
-            <p> Social Media</p>
-       </div> -->
+            <img src="../Navratriwebsite/image/youtube.png" alt="">
+            </div>
+            <h3 style="margin-top: 30px;">Follow Us On</h3>
+            <p>9 Rasleela - Heritage Group</p>
+       </div>
     </div>
 </section>
+<section id="footer">
+    <a href="" target="_blank">
+         <p align="center">
+              <span style="font-size: 25px;">
+                   &copy;
+              </span> Copyright by The EasyLearn Frontend 23 - MEGHA JOBANPUTRA
+         </p>
+    </a>
+</section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
 
