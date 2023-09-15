@@ -32,7 +32,7 @@ a:visited {
 .events_details
 {
     height: 580px;
-   background-image: url(../Navratriwebsite/image/navaratri2.png);
+   background-image: url(image/navaratri2.png);
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -160,12 +160,87 @@ a:visited {
 }
 .event1_main
 {
-    height: 1000px;
+    height: 1200px;
     background-color: rgb(113, 204, 252);
 }
-.event_paragraph
+.event1_paragraph
 {
     font-size: 1.5rem;
     margin-top: 5px;
     padding: 10px;
 }
+.event1_flex
+{
+    display: flex;
+    gap: 250px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* for parallax effect */
+/* if you do not have this, you will see a 
+vertical scrollbar on the .parallax div */
+body {
+    margin: 0;
+  }
+  
+  .parallax {
+    height: 100vh;
+    overflow-x: hidden;
+  
+    perspective: 1px;
+  }
+  
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .layer1 {
+    transform: translateZ(0);
+  }
+  
+  .layer2 {
+    transform: translateZ(-1px);
+  }
+  
+  .layer3 {
+    transform: translateZ(-2px);
+  }
+  
+  /* specific to this implementation */
+  div {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .parallax-layer.layer1 {
+    width: 100%;
+    height: 100rem;
+  
+    background-image: url(image/event2_garba\ page.png);
+  }
+  
+  .parallax-layer.layer2 {
+    top: 10rem;
+  
+    width: 100%;
+    height: 50rem;
+  
+    background-image: url(image/event2.png);
+  }
+  
+  .parallax-layer.layer3 {
+    top: 20rem;
+  
+    width: 100%;
+    height: 50rem;
+  
+    background-image: url(image/event2_garba\ page.png);
+  }
+  
